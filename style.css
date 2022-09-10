@@ -1,0 +1,51 @@
+/* ! NAVBAR */
+.navbar {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: black;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+/* ! CAROUSEL  */
+
+.carousel-item {
+    height: calc(100vh - 61px);
+
+}
+
+.carousel-item h5 {
+    font-size: 3rem;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}
+
+.carousel-item p {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 600;
+
+}
+
+.carousel-item .btn {
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-indicators button {
+    /* bootstrapt in koruduğu  elementleri !important ile eziyoruz */
+    /* burada buton'u koruyor.button üstünde değişiklik yapmak için important kullanıyoruz */
+    padding: 0.04rem !important;
+    background-color: red !important;
+    width: 3rem !important;
+    height: 0.3rem !important;
+    margin-right: 0.5rem !important;
+
+}
