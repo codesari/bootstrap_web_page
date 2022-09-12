@@ -20,7 +20,7 @@
     /* resme yükseklik vermek resmin kalitesini bozabilir(orjinal boyutu değiştirdiği için) */
     /* o yüzden resme yükseklik vermiyoruz ,max yükseklik belirliyoruz böylece resim (100vh-navbar ı aşmamış oluyor)*/
     /* height: calc(100vh - 61px); */
-    max-height: calc(100vh - 61px);
+    height: calc(100vh - 61px);
 
 }
 
@@ -50,7 +50,12 @@
     width: 3rem !important;
     height: 0.3rem !important;
     margin-right: 0.5rem !important;
+    bottom: 5rem;
 
+}
+
+.carousel caption {
+    /* bottom: 5rem; */
 }
 
 /* ! İNSTRUCTOR */
@@ -59,8 +64,18 @@
     transition: transform 0.5s;
 }
 
-.card:hover {
+/* seçiçi davranmak için instructors section nın .card ı diyoruz,sayfada başka yerlerde card yapısı olabilir */
+
+section#instructors .card:hover {
     /* card üstüne gelince büyüme efekti yapar */
     transform: scale(1.1);
 
+}
+
+section#instructors .card i {
+    transition: opacity 1s;
+}
+
+section#instructors .card i:hover {
+    opacity: 0.5;
 }
