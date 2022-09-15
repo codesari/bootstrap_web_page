@@ -98,3 +98,18 @@ section#courses .nav-link {
     color: white;
 
 }
+
+/* ! FOOTER */
+
+footer i {
+    /**  ikonun boyutuna,rengine vs müdahele etmek için font-size attribute kullanılır */
+    /* width: 2rem; */
+    font-size: 2rem;
+    color: white;
+    margin-right: 1rem;
+    transition: color 1s;
+}
+
+footer i:hover {
+    color: red;
+}
