@@ -79,3 +79,22 @@ section#instructors .card i {
 section#instructors .card i:hover {
     opacity: 0.5;
 }
+
+/* ! STUDENTS SECTİON */
+
+section#students img {
+    max-width: 400px;
+    min-width: 200px;
+}
+
+/* ! COURSES SECTİON */
+
+section#courses .nav-link.active {
+    background-color: red;
+
+}
+
+section#courses .nav-link {
+    color: white;
+
+}
